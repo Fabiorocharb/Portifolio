@@ -122,6 +122,10 @@ main {
   outline-color: #0077b5;
 }
 .icon--github:hover {
+  background-color: #ce3a15;
+  outline-color: #ce3a15;
+}
+.icon--whatsapp:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
 }
