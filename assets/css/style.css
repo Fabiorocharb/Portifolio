@@ -7,7 +7,6 @@ body {
   background-color: #1a1d24;
 }
 main {
-  margin-top: 40%;
   margin-bottom: 100%;
   font-family: "Roboto";
   text-align: center;
@@ -80,6 +79,7 @@ main {
 }
 
 /* ICONES */
+
 .icons {
   display: flex;
   justify-content: space-around;
@@ -161,23 +161,39 @@ main {
   main {
     margin-bottom: 60%;
   }
+  .icons {
+    justify-content: space-evenly;
+  }
   #container {
     font-size: 35px;
   }
 }
 @media (min-width: 1280px) {
-    main {
-        margin-bottom: 55%;
-      }
+  main {
+    margin-bottom: 55%;
+  }
+  .icons {
+    justify-content: space-evenly;
+  }
 }
 @media (min-width: 1366px) {
-    main {
-        margin-bottom: 50%;
-    }
+  main {
+    margin-bottom: 50%;
+  }
+  .icons {
+    justify-content: space-evenly;
+  }
 }
-@media(min-width: 1920px) {
-    main {
-        margin-bottom: 40%;
-    }
+@media (min-width: 1440px) {
+  .icons {
+    justify-content: space-evenly;
+  }
 }
+@media (min-width: 1920px) {
+  main {
+    margin-bottom: 40%;
+  }
+  .icons {
+    justify-content: space-evenly;
+  }
 }
