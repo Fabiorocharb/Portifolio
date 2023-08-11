@@ -151,17 +151,24 @@ main {
 @media (min-width: 1024px) {
   .gif {
     width: 50%;
+    margin-top: 10%;
     margin-left: 50%;
   }
   #container {
     position: absolute;
     width: 40%;
     font-size: 27px;
-    top: 30%;
+    top: 22%;
     left: 5%;
   }
   .icons {
-    justify-content: space-evenly;
+    width: 50%;
+    justify-content: center;
+    margin-right: 20%;
+    margin-top: -22%;
+  }
+  .icon {
+    margin: 0 20px;
   }
 }
 @media (min-width: 1280px) {
@@ -170,26 +177,37 @@ main {
   }
 }
 @media (min-width: 1366px) {
+  #container {
+    top: 32%;
+  }
   .gif {
-    margin-top: 2%;
-    width: 35%;
+    margin-top: 10%;
+    width: 40%;
+  }
+  .icons {
+    margin-top: -20%;
   }
 }
 @media (min-width: 1440px) {
-  .gif {
-    width: 35%;
-    margin-top: 5%;
-  }
-}
-@media (min-width: 1920px) {
-  .gif {
-    width: 32%;
-    margin-top: 0%;
-  }
   #container {
-    left: 10%;
+    top: 32%;
+  }
+  .gif {
+    margin-top: 10%;
+    width: 40%;
   }
   .icons {
-    justify-content: space-evenly;
+    margin-top: -20%;
   }
+  
+}
+@media (min-width: 1920px) {
+  #container {
+    top: 40%;
+  }
+  .gif {
+    margin-top: 10%;
+    width: 35%;
+  }
+  
 }
